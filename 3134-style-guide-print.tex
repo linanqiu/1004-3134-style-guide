@@ -1,4 +1,4 @@
-\documentclass[10pt,DIV=23,landscape]{scrartcl}
+\documentclass[11pt,DIV=23,landscape]{scrartcl}
 \usepackage{dominatrix}
 
 \pagenumbering{gobble}
@@ -9,11 +9,13 @@
 
 \usepackage{solarized-light}
 \lstset{
-language=R
+language=R,
+basicstyle=\ttfamily\footnotesize
 }
-\title{Java Style Guide}
-\subject{CS 3134 Data Structures and Algorithms}
-\author{Linan Qiu\\\texttt{lq2137}}
+\title{CS3134 Java Style Guide}
+%\subject{CS 3134 Data Structures and Algorithms}
+\author{Linan Qiu}
+\date{}
 \begin{document}
 \maketitle
 
@@ -28,7 +30,7 @@ developers.
 We do not claim ownership over these tips. Rather, they are inspired by
 \href{https://google.github.io/styleguide/javaguide.html}{Google's Java
 Style Guide} which we encourage you to spend 7 minutes reading. Multiple
-TAs over the generations (Linan Qiu, James Lin, Andrew Goldin, Madhavan
+TAs over the generations (James Lin, Andrew Goldin, Madhavan
 Somanathan) have also contributed to this guide.
 \end{abstract}
 
@@ -72,6 +74,7 @@ public class HanSolo {
 \end{rightcolumn}
 \end{paracol}
 
+\newpage
 \subsection{Use Default Package}\label{use-default-package}
 
 \begin{paracol}{3}
@@ -232,6 +235,7 @@ public boolean canDrive(Person person) {
 \end{rightcolumn}
 \end{paracol}
 
+\newpage
 \section{Naming}\label{naming}
 
 \begin{paracol}{3}
@@ -280,7 +284,7 @@ words separated by underscores.
 \begin{rightcolumn}
 \begin{lstlisting}
 public static final int ANSWER_TO_UNIVERSE = 42;
-public static final String WARNING = "Shall not pass";
+public static final String WARNING = "You shall not pass";
 \end{lstlisting}
 \end{rightcolumn}
 \end{paracol}
