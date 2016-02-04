@@ -152,8 +152,8 @@ Method names are typically verbs or verb phrases. For example, `sendMessage` or 
 Constant names use `CONSTANT_CASE`: all uppercase letters, with words separated by underscores.
 
 ```java
-static final int MAGIC_NUMBER = 5;
-enum SomeEnum { ENUM_CONSTANT }
+public static final int ANSWER_TO_UNIVERSE = 42;
+public static final String WARNING_MESSAGE = "You shall not pass";
 ```
 
 ## Meaningful Names
